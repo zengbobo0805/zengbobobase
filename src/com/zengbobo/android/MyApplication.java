@@ -2,6 +2,8 @@ package com.zengbobo.android;
 
 import java.util.ArrayList;
 
+import com.zengbobo.android.init.LVMMApplicationInit;
+
 import android.app.Activity;
 import android.app.Application;
 
@@ -18,7 +20,7 @@ public class MyApplication extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-		CrashHandler.getInstance().init(getApplicationContext());
+		LVMMApplicationInit.init(getApplicationContext());
 	}
 
 	/**
