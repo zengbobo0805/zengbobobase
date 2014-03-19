@@ -56,4 +56,6 @@ public class TestActivity extends Activity {
 		System.out.println("MYTAG TestActivity.....onDestroy");
 		
 	}
+	
+	
 }

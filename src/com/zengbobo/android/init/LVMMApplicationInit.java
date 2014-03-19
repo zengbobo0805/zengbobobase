@@ -10,7 +10,7 @@ public class LVMMApplicationInit {
 		if(isInitCrashHandler){
 			CrashHandlerInit.getInstance().init(context);
 		}
-		
-		
 	}
+	
+	
 }
